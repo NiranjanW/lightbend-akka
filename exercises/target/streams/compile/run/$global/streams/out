@@ -1,0 +1,2 @@
+[debug] javaOptions: List(-javaagent:C:\Users\itnxw\.ivy2\cache\com.lightbend.cinnamon\cinnamon-agent\jars\cinnamon-agent-2.13.1.jar=loglevel=INFO)
+[error] Nonzero exit code returned from runner: 1

@@ -1,0 +1,36 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.
+[debug]   Running TaskDef(com.lightbend.training.coffeehouse.CoffeeHouseAppSpec, sbt.ForkMain$SubclassFingerscan@199f65a5, false, [SuiteSelector])
+[info] CoffeeHouseAppSpec:
+[info] Calling argsToOpts
+[info] - should return the correct opts for the given args
+[info] Calling applySystemProperties
+[info] - should apply the system properties for the given opts
+[debug]     Produced 0 nested tasks and 2 events.
+[debug]   Running TaskDef(com.lightbend.training.coffeehouse.CoffeeHouseSpec, sbt.ForkMain$SubclassFingerscan@1dd29f49, false, [SuiteSelector])
+[info] CoffeeHouseSpec:
+[info] Sending a message to CoffeeHouse
+[info] - should result in logging a 'coffee brewing' message at info *** FAILED ***
+[info]   java.lang.AssertionError: timeout (3 seconds) waiting for 1 messages on InfoFilter(Some(akka://default/user/$a),Right(.*[Cc]offee.*),false)
+[info]   at akka.testkit.EventFilter.intercept(TestEventListener.scala:122)
+[info]   at com.lightbend.training.coffeehouse.CoffeeHouseSpec.$anonfun$new$2(CoffeeHouseSpec.scala:15)
+[info]   at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.wordspec.AnyWordSpecLike$$anon$3.apply(AnyWordSpecLike.scala:1076)
+[info]   at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+[info]   ...
+[debug]     Produced 0 nested tasks and 1 events.
+[info] Run completed in 4 seconds, 896 milliseconds.
+[info] Total number of tests run: 3
+[info] Suites: completed 2, aborted 0
+[info] Tests: succeeded 2, failed 1, canceled 0, ignored 0, pending 0
+[info] *** 1 TEST FAILED ***
+[debug] Passed tests:
+[debug] 	com.lightbend.training.coffeehouse.CoffeeHouseAppSpec
+[error] Failed tests:

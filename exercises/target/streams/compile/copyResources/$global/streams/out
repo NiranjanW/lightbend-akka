@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\scala\project\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\src\main\resources\application.conf,C:\scala\project\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\classes\application.conf)
+[debug] 	(C:\scala\project\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\src\main\resources\logback.xml,C:\scala\project\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\classes\logback.xml)
+[debug] 	(C:\scala\project\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\src\main\resources\telemetry.conf,C:\scala\project\LAS-P-lightbend-akka-for-scala-professional-v1\exercises\target\scala-2.13\classes\telemetry.conf)

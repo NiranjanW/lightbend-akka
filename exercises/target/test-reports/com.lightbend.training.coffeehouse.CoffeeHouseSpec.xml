@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="LCBOUOBTjM9QiDT" name="com.lightbend.training.coffeehouse.CoffeeHouseSpec" tests="1" errors="0" failures="1" skipped="0" time="3.022" timestamp="2020-10-14T16:14:05">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/><property name="java.vm.version" value="25.251-b08"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="CA"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\scala\project\LAS-P-lightbend-akka-for-scala-professional-v1"/><property name="java.runtime.version" value="1.8.0_251-b08"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\itnxw\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sbt.log.noformat" value="true"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\itnxw\AppData\Local\Temp\jna-69997250\jna4864343090884853674.dll"/><property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\oracle\product\12.2.0\client_1\bin;C:\Informatica\10.2.0\clients\tools\datadirect;C:\Informatica\10.2.0\clients\tools\odbcdrv;C:\Informatica\10.2.0\clients\tools\jdbcdrv;C:\Informatica\10.2.0\clients\tools\sharedlibs;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\sbt\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\scala\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\PuTTY\;%GO_HOME%\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin;C:\oracle\product\12.2.0\client_1\bin;C:\Informatica\10.2.0\clients\tools\datadirect;C:\Informatica\10.2.0\clients\tools\odbcdrv;C:\Informatica\10.2.0\clients\tools\jdbcdrv;C:\Informatica\10.2.0\clients\tools\sharedlibs;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\sbt\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\scala\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\PuTTY\;%GO_HOME%\bin;;%JAVA_HOME%\bin;C:\Microsoft VS Code\bin;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\itnxw"/><property name="user.timezone" value="GMT"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Users\itnxw\.IdeaIC2019.3\config\plugins\Scala\launcher\sbt-launch.jar"/><property name="user.name" value="ITNXW"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="C:\Users\itnxw\.IdeaIC2019.3\config\plugins\Scala\launcher\sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;C:\Users\itnxw\AppData\Local\Temp\idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 51768 ; idea-shell"/><property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_251"/><property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sbt.supershell" value="false"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="com.lightbend.training.coffeehouse.CoffeeHouseSpec" name="Sending a message to CoffeeHouse should result in logging a 'coffee brewing' message at info" time="3.022">
+                                                 <failure message="java.lang.AssertionError: timeout (3 seconds) waiting for 1 messages on InfoFilter(Some(akka://default/user/$a),Right(.*[Cc]offee.*),false)" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: timeout (3 seconds) waiting for 1 messages on InfoFilter(Some(akka://default/user/$a),Right(.*[Cc]offee.*),false)
+	at akka.testkit.EventFilter.intercept(TestEventListener.scala:122)
+	at com.lightbend.training.coffeehouse.CoffeeHouseSpec.$anonfun$new$2(CoffeeHouseSpec.scala:15)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.wordspec.AnyWordSpecLike$$anon$3.apply(AnyWordSpecLike.scala:1076)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.wordspec.AnyWordSpec.withFixture(AnyWordSpec.scala:1879)
+	at org.scalatest.wordspec.AnyWordSpecLike.invokeWithFixture$1(AnyWordSpecLike.scala:1074)
+	at org.scalatest.wordspec.AnyWordSpecLike.$anonfun$runTest$1(AnyWordSpecLike.scala:1086)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTest(AnyWordSpecLike.scala:1086)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTest$(AnyWordSpecLike.scala:1068)
+	at org.scalatest.wordspec.AnyWordSpec.runTest(AnyWordSpec.scala:1879)
+	at org.scalatest.wordspec.AnyWordSpecLike.$anonfun$runTests$1(AnyWordSpecLike.scala:1145)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:413)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:427)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTests(AnyWordSpecLike.scala:1145)
+	at org.scalatest.wordspec.AnyWordSpecLike.runTests$(AnyWordSpecLike.scala:1144)
+	at org.scalatest.wordspec.AnyWordSpec.runTests(AnyWordSpec.scala:1879)
+	at org.scalatest.Suite.run(Suite.scala:1112)
+	at org.scalatest.Suite.run$(Suite.scala:1094)
+	at org.scalatest.wordspec.AnyWordSpec.org$scalatest$wordspec$AnyWordSpecLike$$super$run(AnyWordSpec.scala:1879)
+	at org.scalatest.wordspec.AnyWordSpecLike.$anonfun$run$1(AnyWordSpecLike.scala:1190)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
+	at org.scalatest.wordspec.AnyWordSpecLike.run(AnyWordSpecLike.scala:1190)
+	at org.scalatest.wordspec.AnyWordSpecLike.run$(AnyWordSpecLike.scala:1188)
+	at com.lightbend.training.coffeehouse.BaseAkkaSpec.org$scalatest$BeforeAndAfterAll$$super$run(BaseAkkaSpec.scala:14)
+	at org.scalatest.BeforeAndAfterAll.liftedTree1$1(BeforeAndAfterAll.scala:213)
+	at org.scalatest.BeforeAndAfterAll.run(BeforeAndAfterAll.scala:210)
+	at org.scalatest.BeforeAndAfterAll.run$(BeforeAndAfterAll.scala:208)
+	at com.lightbend.training.coffeehouse.BaseAkkaSpec.run(BaseAkkaSpec.scala:14)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:318)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:513)
+	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:304)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
